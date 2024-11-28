@@ -1,0 +1,17 @@
+{
+  "name": "debugeffects",
+  "version": "1.0.0",
+  "main": "debugUseEffects.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BashirTowdiee",
+  "license": "MIT",
+  "description": "Adding logs to react useEffect to find out why it is running multiple times",
+  "devDependencies": {
+    "@babel/generator": "^7.26.2",
+    "@babel/parser": "^7.26.2",
+    "@babel/traverse": "^7.25.9",
+    "@babel/types": "^7.26.0"
+  }
+}
