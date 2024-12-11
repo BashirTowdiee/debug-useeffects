@@ -97,6 +97,7 @@ function transformCode(code, filePath) {
 
           // Get the dependencies array if it exists
           const deps = path.node.arguments[1];
+          // const depsLogging = false;
           const depsLogging = deps
             ? createDependenciesLogger(componentName, effectCounter, deps)
             : null;
